@@ -2,7 +2,7 @@ name: GIPHY generator
 
 on: 
   issues:
-    types: [opened, edited]
+  types: [opened, edited]
    pull_request:
     types [opened, edited]
    issue_comment:
