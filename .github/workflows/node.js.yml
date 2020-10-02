@@ -38,6 +38,7 @@ jobs:
            - Second Change
          draft: false
          prerelease: false
+         allowUpdates: true
   test: 
     runs-on: ubuntu-latest
     needs: build
